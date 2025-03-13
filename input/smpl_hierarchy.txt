@@ -1,0 +1,28 @@
+# The first line is the number of bones/joints.
+# All other files are:
+# <JOINT INDEX> <PARENT INDEX> <ROTATION ORDER> <JOINT NAME>
+24
+0 -1 EULER_XYZ Pelvis
+1 0 EULER_XYZ L_Hip
+2 0 EULER_XYZ R_Hip
+3 0 EULER_XYZ Spine1
+4 1 EULER_XYZ L_Knee
+5 2 EULER_XYZ R_Knee
+6 3 EULER_XYZ Spine2
+7 4 EULER_XYZ L_Ankle
+8 5 EULER_XYZ R_Ankle
+9 6 EULER_XYZ Spine3
+10 7 EULER_XYZ L_Foot
+11 8 EULER_XYZ R_Foot
+12 9 EULER_XYZ Neck
+13 9 EULER_XYZ L_Collar
+14 9 EULER_XYZ R_Collar
+15 12 EULER_XYZ Head
+16 13 EULER_XYZ L_Shoulder
+17 14 EULER_XYZ R_Shoulder
+18 16 EULER_XYZ L_Elbow
+19 17 EULER_XYZ R_Elbow
+20 18 EULER_XYZ L_Wrist
+21 19 EULER_XYZ R_Wrist
+22 20 EULER_XYZ L_Hand
+23 21 EULER_XYZ R_Hand
